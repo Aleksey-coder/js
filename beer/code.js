@@ -21,7 +21,7 @@ No more - Больше не надо
 				
 				
 let word = "bottes";
-let сount 99;
+let сount = 99;
 while (count > 0) {
    console.log(count + " " + word + " пива на столе");
    console.log(count + " " + word + " пиво,");
