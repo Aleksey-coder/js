@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Два велосипедиста </title>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+	
+		<p> Два велосипедиста одновременно выехали навстречу<br>
+		    друг-другу из двух поселков и встретились через<br>
+		    3 часа. Первый велосипедист ехал со скоростью<br>
+		    12 км/ч, а второй — 14 км/ч. На каком расстоянии<br>
+		    находятся поселки?</p><br>
+
+		var calculateDistance = function(time, speedOfFirstCyclist, speedOfSecondCyclist) {<br>
+			// Алгоритм<br>
+			// 1. Найти расстояние, которое проехал первый<br>
+			//    велосипедист, умножив скорость на время<br>
+			var distanceOfFirstCyclist = speedOfFirstCyclist * time;<br><br>
+			
+			// 2. Найти расстояние, которое проехал второй<br>
+			//    велосипедист<br>
+			var distanceOfSecondCyclist = speedOfSecondCyclist * time;<br>
+			
+			// 3. Сложить полученные расстояния<br>
+			var totalDistance = distanceOfFirstCyclist + distanceOfSecondCyclist;<br><br>
+			
+			return totalDistance;<br>
+		};<br><br>
+
+		var measureUnit = 'км';<br>
+		console.log('Расстояние между первыми поселками: ' + calculateDistance(3, 12, 14) + measureUnit);<br>
+		console.log('Расстояние между вторыми поселками: ' + calculateDistance(5, 1, 2) + measureUnit);<br>
+
+			 <script src="script.js"></script>	
+	</body>
+</html>
