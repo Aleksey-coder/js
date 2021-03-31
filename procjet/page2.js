@@ -1,4 +1,4 @@
-var secondsInAMinute = 60;
-var minutesInAnHour = 60;
-var secondsInAnHour = secondsInAMinute * minutesInAnHour;
+let secondsInAMinute = 60;
+let minutesInAnHour = 60;
+let secondsInAnHour = secondsInAMinute * minutesInAnHour;
 secondsInAnHour;
