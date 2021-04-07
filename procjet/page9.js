@@ -1,12 +1,12 @@
-var mySecretNumber = 5;
-var chicoGuess = 3;
+let mySecretNumber = 5;
+let chicoGuess = 3;
 mySecretNumber === chicoGuess;
 // false
 
-var harpoGuess = 7;
+let harpoGuess = 7;
 mySecretNumber === harpoGuess;
 // false
 
-var grouchoGuess = 5;
+let grouchoGuess = 5;
 mySecretNumber === grouchoGuess;
 // true
