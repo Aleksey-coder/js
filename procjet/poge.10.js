@@ -1,5 +1,5 @@
-var stringNumber = "5";
-var actualNumber = 5;
+let stringNumber = "5";
+let actualNumber = 5;
 stringNumber === actualNumber;
 // false
 
