@@ -12,6 +12,6 @@ colors.indexOf("blue");
 colors.indexOf("purple");
 // -1
 
-var insects = ["Bee", "Ant", "Bee", "Bee", "Ant"];
+let insects = ["Bee", "Ant", "Bee", "Bee", "Ant"];
 insects.indexOf("Bee");
 // 0
