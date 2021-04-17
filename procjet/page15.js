@@ -1,8 +1,8 @@
-var boringAnimals = ["Monkey", "Cat", "Fish", "Lizard"];
+let boringAnimals = ["Monkey", "Cat", "Fish", "Lizard"];
 boringAnimals.join();
 // "Monkey,Cat,Fish,Lizard"
 
-var boringAnimals = ["Monkey", "Cat", "Fish", "Lizard"];
+let boringAnimals = ["Monkey", "Cat", "Fish", "Lizard"];
 boringAnimals.join(" - ");
 // "Monkey - Cat - Fish - Lizard"
 boringAnimals.join("*");
@@ -10,7 +10,7 @@ boringAnimals.join("*");
 boringAnimals.join(" sees ");
 // "Monkey sees Cat sees Fish sees Lizard"
 
-var myNames = ["Nicholas", "Andrew", "Maxwell", "Morgan"];
+let myNames = ["Nicholas", "Andrew", "Maxwell", "Morgan"];
 myNames.join(" ");
 // "Nicholas Andrew Maxwell Morgan"
 
