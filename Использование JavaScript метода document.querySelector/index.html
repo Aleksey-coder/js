@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Использование JavaScript метода document.querySelector()</title>
+	</head>
+	<body>
+		<button onclick = "myFunc()">Нажми меня</button> <!-- добавляем атрибут событий onclick -->
+		<div class = "block first">Первый блок</div>
+		<div class = "block">Второй блок</div>
+		<div class = "block">Третий блок</div>
+		<script>
+	function myFunc() {
+	  let firstBlock = document.querySelector( ".block" ),   // выбираем элемент с классом block
+	      first = document.querySelector( ".first, .block" ), // находим первый элемент из заданных селекторов
+	      second = document.querySelector( "div:nth-of-type(2)" ), // выбираем каждый элемент div, который является вторым дочерним элементом своего родительского элемента
+	      third = document.querySelector( "div:last-of-type" ); // находим каждый элемент div, который является последним из элементов своего родительского элемента
+
+	  firstBlock.style.background = "black";    // изменяем цвет заднего фона у элемента
+	  first.style.color = "red";    // изменяем цвет текста у элемента
+	  second.style.color = "green"; // изменяем цвет текста у элемента
+	  third.style.color = "blue";   // изменяем цвет текста у элемента		
+	  	  }
+		</script>
+	</body>
+</html>
