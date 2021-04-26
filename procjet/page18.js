@@ -1,4 +1,4 @@
-var owedMoney = {};
+let owedMoney = {};
 owedMoney["Jimmy"] = 5;
 owedMoney["Anna"] = 7;
 owedMoney["Jimmy"];
