@@ -6,5 +6,5 @@ function makeFunc() {
   return displayName;
 };
 
-var myFunc = makeFunc();
+let myFunc = makeFunc();
 myFunc()
