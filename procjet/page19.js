@@ -1,5 +1,5 @@
 function makeFunc() {
-  var name = "Mozilla";
+  let name = "Mozilla";
   function displayName() {
     alert(name);
   }
