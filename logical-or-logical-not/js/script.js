@@ -10,5 +10,5 @@ let minPass = (score1 >= pass1) || (score2 >= pass2);
 let msg = 'Требуется ли пересдача: ' + !minPass;
 
 // Выводим сообщение на страницу
-var el = document.getElementById('answer');
+let el = document.getElementById('answer');
 el.innerHTML = msg;
