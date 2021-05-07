@@ -7,7 +7,7 @@ let pass2 = 6;    // Проходной балл за второй этап
 let minPass = (score1 >= pass1) || (score2 >= pass2);
 
 // Создаем сообщение
-var msg = 'Требуется ли пересдача: ' + !minPass;
+let msg = 'Требуется ли пересдача: ' + !minPass;
 
 // Выводим сообщение на страницу
 var el = document.getElementById('answer');
