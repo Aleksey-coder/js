@@ -20,7 +20,7 @@ Take one down, pase it around - Возьмите один, пропустите 
 No more - Больше не надо		
 				
 				
-var word = "bottes";
+let word = "bottes";
 var сount = 99;
 while (count > 0) {
    console.log(count + " " + word + " пива на стене");
