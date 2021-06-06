@@ -13,7 +13,7 @@ if (num < 49) {
 	
 switch (num) {
 	case num < 49:
-		console.log:Неверно!');
+		console.log(Неверно!');
 		break;   
 	case num > 100:
 		console.log('Много!');
