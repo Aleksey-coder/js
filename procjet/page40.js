@@ -20,3 +20,12 @@ for (let key in options) {
 }
 
 console.log(Object.keys(options).length);
+
+
+test
+{width: 1024, height: 1024, name: "test", colors: {…}}colors: {border: "black", bg: "red"}height: 1024name: "test"width: 1024__proto__: Object
+Свойства width имеет значение 1024
+Свойства height имеет значение 1024
+Свойства name имеет значение test
+Свойства colors имеет значение [object Object]
+4
