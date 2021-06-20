@@ -23,7 +23,12 @@ console.log(Object.keys(options).length);
 
 
 test
-{width: 1024, height: 1024, name: "test", colors: {…}}colors: {border: "black", bg: "red"}height: 1024name: "test"width: 1024__proto__: Object
+{width: 1024, height: 1024, name: "test", colors: {…}}
+colors: {border: "black", bg: "red"}
+height: 1024
+name: "test"
+width: 1024
+__proto__: Object
 Свойства width имеет значение 1024
 Свойства height имеет значение 1024
 Свойства name имеет значение test
