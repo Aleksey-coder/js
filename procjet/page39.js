@@ -6,3 +6,7 @@ function doHomework(subject, callback) {
 doHomework('math', function() {
   alert('Finished my homework');
 })
+
+// Starting my math homework.
+
+// Finished my homework
