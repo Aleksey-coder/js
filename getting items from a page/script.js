@@ -9,3 +9,4 @@ let box = document.getElementById('box'),
     console.log(btn[0]);
     console.log(circle[2]);
     console.log(heart[1]);
+    console.log(onHeart);
