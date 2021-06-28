@@ -1,7 +1,7 @@
 let box = document.getElementById('box'),
     btn = document.getElementsByName('button'),
     circle = document.getElementsByClassName('circle');
-    heart = document.querySelectorAll('.heart');
+    heart = document.querySelectorAll('.wrapper.heart');
 
     console.log(box);
     console.log(btn);
