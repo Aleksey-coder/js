@@ -5,3 +5,6 @@ let box = document.getElementById('box'),
     oneHeart = document.querySelectorAll('.heart');
 
     
+for (let i = 0; i < heart.length; i++) {
+    heart[i].style.backgroundColor = 'blue';
+}
