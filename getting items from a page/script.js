@@ -9,6 +9,6 @@ let box = document.getElementById('box'),
 //     heart[i].style.backgroundColor = 'blue';
 // }
 
-heart.forEach(function(item, i, hearts) {
-    item.style.backgroundColor = 'blue';
-});
+// heart.forEach(function(item, i, hearts) {
+//     item.style.backgroundColor = 'blue';
+// });
