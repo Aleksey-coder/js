@@ -12,3 +12,12 @@ let box = document.getElementById('box'),
 // heart.forEach(function(item, i, hearts) {
 //     item.style.backgroundColor = 'blue';
 // });
+
+let div = document.createElement('div'),
+    text = document.createTextNode("Hi, how are you?");
+
+div.classList.add('black');  
+
+document.body.appendChild(div);
+
+console.log(div)
