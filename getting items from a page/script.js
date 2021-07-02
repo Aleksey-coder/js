@@ -25,4 +25,6 @@ document.body.insertBefore(div, circle[0]);
 document.body.removeChild(circle[1]);
 wrapper.removeChild(heart[1]);
 
+document.body.replaceChild(btn[1], circle[1]);
+
 console.log(div)
