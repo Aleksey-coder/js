@@ -23,5 +23,6 @@ div.classList.add('black');
 // wrapper.appendChild(div);
 document.body.insertBefore(div, circle[0]);
 document.body.removeChild(circle[1]);
+wrapper.removeChild(heart[1]);
 
 console.log(div)
