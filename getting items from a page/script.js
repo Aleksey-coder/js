@@ -21,6 +21,9 @@ div.classList.add('black');
 
 // document.body.appendChild(div);
 // wrapper.appendChild(div);
+
+div.innerHTML = 'Hello Word!'
+
 document.body.insertBefore(div, circle[0]);
 document.body.removeChild(circle[1]);
 wrapper.removeChild(heart[1]);
