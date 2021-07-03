@@ -22,7 +22,7 @@ div.classList.add('black');
 // document.body.appendChild(div);
 // wrapper.appendChild(div);
 
-div.innerHTML = '<h1>Hello Word!</h1>'
+// div.innerHTML = '<h1>Hello Word!</h1>';
 
 document.body.insertBefore(div, circle[0]);
 document.body.removeChild(circle[1]);
