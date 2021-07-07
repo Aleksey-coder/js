@@ -12,6 +12,10 @@ btn[0].addEventListener('click', function(event) {
     console.log('Произошло событие: ' + event.type +  ' на элементе ' + event.target);
 });
 
-btn[0].addEventListener('mouseenter', function() {
-    alert('Вы навели на первую кнопку!');
+wrap.addEventListener('click', function() {
+    console.log('Произошло событие: ' + event.type +  ' на элементе ' + event.target);
 });
+
+// btn[0].addEventListener('mouseenter', function() {
+//     alert('Вы навели на первую кнопку!');
+// });
