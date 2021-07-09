@@ -12,9 +12,15 @@ let btn = document.getElementsByTagName('button');
 //     console.log('Произошло событие: ' + event.type +  ' на элементе ' + event.target);
 // });
 
-wrap.addEventListener('click', function() {
+// wrap.addEventListener('click', function() {
+//     console.log('Произошло событие: ' + event.type +  ' на элементе ' + event.target);
+// });
+
+link.addEventListener('click', function(event) {
+    event.preventDefault();
     console.log('Произошло событие: ' + event.type +  ' на элементе ' + event.target);
 });
+
 
 // btn[0].addEventListener('mouseenter', function() {
 //     alert('Вы навели на первую кнопку!');
