@@ -17,7 +17,8 @@ let box = document.getElementById('box'),
 let div = document.createElement('div'),
     text = document.createTextNode("Hi, how are you?");
 
-div.classList.add('black');  
+div.style.backgroundColor = 'hsl(120, 100%, 75%)';
+//div.classList.add('black');  
 
 // document.body.appendChild(div);
 // wrapper.appendChild(div);
