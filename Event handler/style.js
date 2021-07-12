@@ -24,7 +24,7 @@ link.addEventListener('click', function(event) {
 btn.forEach(function(item) {
     item.addEventListener('mouseleave', function() {
         console.log("Вышли!");
-    })
+    });
 });
 
 
