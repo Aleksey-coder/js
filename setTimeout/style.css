@@ -1,0 +1,30 @@
+div {
+  display: block; 
+}
+
+.btn-block {
+  padding: 10px;
+  background-color: grey;
+  margin-top: 80px;
+}
+
+.wrapper{
+    width:354px;
+    height:332px;
+    background:rgb(196, 202, 166);
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background: #00f;
+  position: fixed;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+
+button {
+    width: 70px;
+    height: 20px;
+    background: yellow;
+}
