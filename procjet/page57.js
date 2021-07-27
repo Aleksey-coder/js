@@ -27,3 +27,7 @@ class Rectangle {
 
 const square = new Rectangle(10);
 console.log(square.calcArea());
+
+//200
+
+
