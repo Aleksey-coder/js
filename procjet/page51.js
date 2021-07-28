@@ -41,3 +41,8 @@ console.log(ivan);
 console.log(alex);
 ivan.hello();
 alex.hello();
+
+//  User {name: "Ivan", id: 52, human: true}
+//  User {name: "Aleksey", id: 30, human: true}
+//  Hello! Ivan
+//  Hello! Aleksey
