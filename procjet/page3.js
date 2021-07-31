@@ -4,4 +4,6 @@ if ("10" === 10) {
 	console.log('lalala');
 } else {
 	console.log('by');
-}
+};
+
+//lalala
