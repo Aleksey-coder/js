@@ -1,0 +1,29 @@
+<meta charset="unf-8">
+<script>
+	let x = +prompt("Введи 1-ое число!");
+	let y = +prompt("Введи 2-ое число!");
+	let z = +prompt("Введи 3-ое число!");
+	let res;
+	
+	while(isNaN(x) || isNaN(y) || isNaN(z)){	
+		x = +prompt("ВНИМАТЕЛЬНО Введи 1-ое число!");
+		y = +prompt("ВНИМАТЕЛЬНО Введи 2-ое число!");
+		z = +prompt("ВНИМАТЕЛЬНО Введи 3-ое число!");
+		};
+		
+	if((x == y) || (x == z) || (y == z)) {
+		res = 'Не возможно найти среднее';
+	} 
+	else if(((x > y) && (x < z)) || ((x < y) && (x > z))){
+		rex = x;
+	}
+	else if(((y > x) && (y < z)) || ((y < x) && (y > z))){
+		rex = y;
+	}
+	else {
+		res = z;
+	}
+	
+	alert(res);
+		// не доделаное и не понетое
+</script>
