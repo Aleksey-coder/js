@@ -1,0 +1,42 @@
+<meta charset="unf-8">
+<script>
+
+	function randomInt(min, max){
+		var length = max - min +1;
+		var rand = Math.floor(Math.random() * length) + min;
+		return rand;
+	}
+	
+	let x, y, res, answer;
+	
+	for(let i = 0; i < 10; i++) {
+		x = randomInt(3, 15);
+		y = randomInt(3, 15);
+		res = x * y;
+		answer = prompt(x + ' * ' + y + " = ?");
+		
+		if(res == answer) {
+			console.log('Молодец');
+		}
+		else{
+			console.log('Болбес!' + x + ' * ' + y + " = " + res);
+		}
+	}
+		/*
+		
+			f(x) = x * x
+			function f(x) {
+				return x * x;
+				}
+				
+		20 + f(4) + 14 = ???  // в f4 будет  16 потому что x * x а x это 4
+	
+	*/
+	
+	/*
+	function randomInt(){
+		return 1;
+		return 2; // не достижимый код, то
+	<!-- токого писать не надо -->
+	*/
+</script>
