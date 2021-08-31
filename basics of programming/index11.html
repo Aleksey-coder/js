@@ -1,0 +1,88 @@
+<meta charset="unf-8">
+<script>
+
+	function mathOp(a, b, op){
+		if(op == '+') {
+			res = a + b;
+		}
+		else if(op == '-') {
+			res = a - b;
+		}
+		else if(op == '*') {
+			res = a * b;
+		}
+		else if(op == '/') {
+			if(b == 0) {
+				res = false;
+			//на будующее throw new
+			}
+		else {	
+			res = a / b;
+		}
+		
+}		else {
+			res = false;
+			//на будующее throw new
+		}
+		return res
+	}
+	
+	
+	//console.log(matOp(1, 10, '+'));
+	//console.log(matOp(50, 5, '-'));
+	//console.log(matOp(1, 10, '*'));
+	//console.log(matOp(50, 5, '/'));
+	function codeToOp(num){
+		let res;
+		
+		if(num == 0) {
+			res = '+';
+		}
+		else if(num == 1) {
+			res = '-';
+		}
+		else if(num == 2) {
+			res =  '*';
+		}
+		else if(num == 3) {
+			res = '/';
+		}
+		else {	
+			res = '';
+		}
+		
+		return res
+	}
+	
+	
+	function randomInt(min, max){
+		let length = max - min +1;
+		let rand = Math.floor(Math.random() * length) + min;
+		return rand;
+	}
+	
+	let x, y, code, op, res, answer, answerStr;
+	
+	for(let i = 0; i < 10; i++) {
+		x = randomInt(3, 15);
+		y = randomInt(3, 15);
+		code = randomInt(0, 3);
+		op = codeToOp(code);
+		res = mathOp(x, y, op);
+		
+		do{
+			answerStr = prompt(x + '  ' + op + ' ' + y + " = ?");
+			answer = +answerStr;
+		}
+		
+		while(answerStr == '' || isNaN(answer));
+		
+		if(res.toFixed(2) == answer.toFixed(2)) {
+			console.log('Молодец');
+		}
+		else{
+			console.log('Болбес!' + x + ' ' + op + ' ' + y + " = " + res.toFixed(2));
+		}
+	}
+	
+</script>
