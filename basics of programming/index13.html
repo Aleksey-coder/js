@@ -1,0 +1,16 @@
+<meta charset="unf-8">
+<script>
+function randomInt(min, max){
+		let length = max - min +1;
+		let rand = Math.floor(Math.random() * length) + min;
+		return rand;
+	}
+	
+	let code, op;
+	let variants = ['*', '-', '+', '/'];
+	
+	code = randomInt(0, 3);
+		op = variants[code];
+		
+		console.log(op);
+</script>
