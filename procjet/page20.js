@@ -5,3 +5,4 @@ let persone = {
 }
 	
 console.log(persone["name"]);	
+//John
