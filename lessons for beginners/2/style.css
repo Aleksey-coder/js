@@ -1,0 +1,11 @@
+.wrapper {
+    width: 90%;
+    height: 150px;
+    background-color: #f28888;
+}
+
+.btn {
+    margin-top: 20px;
+    color: #f0dddd;
+    background-color: #291b1b;
+}
