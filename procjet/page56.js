@@ -6,3 +6,6 @@ function calOrDouble(number, basis = 2) {
 
 calOrDouble(3,5);
 calOrDouble(6);
+
+// 15
+// 12
