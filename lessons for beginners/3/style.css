@@ -1,0 +1,17 @@
+wrapper {
+    width: 90%;
+    height: 350px;
+    background-color: #f28888;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #f0dddd;
+    background-color: #291b1b;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
