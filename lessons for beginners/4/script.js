@@ -1,4 +1,4 @@
-function external() {
+/*function external() {
 	const externalVar = 'Я - внешняя функция'; 
 	
   function internal() {
@@ -14,4 +14,17 @@ function external() {
 
 const internalFn = external();
  //console.log(internalFn);
- internalFn();
+ internalFn(); */
+
+
+function createAddress(type) {
+		const address = type.toUpperCase();
+		return function(name) {
+			return `${address} ${name}`;
+		}
+ }
+ 
+ const addressMan = createAddress('Муж');
+ const addressFemale = createAddress('Жена');
+ console.log(addressMan('Aleksey'))
+ console.log(addressFemale('Larysa'))
