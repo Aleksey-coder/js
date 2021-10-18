@@ -28,3 +28,15 @@ function createAddress(type) {
  const addressFemale = createAddress('Жена');
  console.log(addressMan('Aleksey'))
  console.log(addressFemale('Larysa'))
+
+
+
+ function createPlayer(name) {
+	 let score = 0;
+	 return function scoreCount() {
+		 score++;
+		 return `${name} - ${score} баллов!`;
+	 };
+ }
+ 
+ const playerOne = createPlayer('Василиса')
