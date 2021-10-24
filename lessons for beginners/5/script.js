@@ -22,4 +22,13 @@ img.classList.add('super');
 img.alt = 'Super Man';
 div.appendChild(img)
 console.log(img)	
+const elemHTML = `<div class = 'pDiv'>
+	<p>Парагров 1</p>
+	<p>Парагров 2</p>
+</div>`
+const ulList = div.querySelector('ul');
+ulList.insertAdjacentHTML('beforebegin', elemHTML)
+const pDiv = document.querySelector('.pDiv');
+pDiv.children[1].classList.add('text');
+pDiv.firstElementChild.remove();
 
