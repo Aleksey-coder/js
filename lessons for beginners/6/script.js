@@ -13,3 +13,14 @@ console.log(age)
 console.log(ageTwo)
 
 const students = ['Сергей', 'Станислав', 'Мария', 'Павел',];
+
+
+const group = students 
+
+group[2] = 'Оксана';
+
+console.log(students)
+console.log(group)
+
+const group2 = students.slice(0, 2);
+console.log(group2)
