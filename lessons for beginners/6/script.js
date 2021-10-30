@@ -22,5 +22,6 @@ group[2] = 'Оксана';
 console.log(students)
 console.log(group)
 
-const group2 = students.slice(0, 2);
-console.log(group2)
+const group2 = students.slice();
+group2[2] = "Алексей"
+
