@@ -24,4 +24,8 @@ console.log(group)
 
 const group2 = students.slice();
 group2[2] = "Алексей"
+const group3 = [].concat(students)
 
+const group4 = [...students]
+
+const group5 = Array.from[students];
