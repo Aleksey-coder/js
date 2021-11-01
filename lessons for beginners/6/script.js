@@ -29,3 +29,8 @@ const group3 = [].concat(students)
 const group4 = [...students]
 
 const group5 = Array.from[students];
+
+const person = {
+      name: 'Peter',
+      age: 30
+    }
