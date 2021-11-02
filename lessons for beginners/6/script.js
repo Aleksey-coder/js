@@ -34,3 +34,5 @@ const person = {
       name: 'Peter',
       age: 30
     }
+const student = person;
+student.age = 100;
