@@ -40,3 +40,6 @@ student.age = 100;
 const firsman = Object.assign({}, person, {age: 52, height: '1.7'});
 console.log(person)
 console.log(firsman)
+
+const worker = {...person}
+console.log(worker)
