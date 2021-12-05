@@ -10,4 +10,5 @@ document.querySelector('div').insertAdjacentHTML('afterend', 55555);// посл�
 document.querySelector('div').insertAdjacentHTML('beforeend', 44444);// сразу перед закрывающим тегом element (после последнего потомка).
 //---------------
 document.querySelector('.one span').innerHTML = 6666;//span тег заменил полностью на 6666
+//---------------
 document.querySelector('img').alt = 'yellow cat';//заменил cat на yellow cat
