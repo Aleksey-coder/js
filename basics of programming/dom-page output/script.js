@@ -12,3 +12,4 @@ document.querySelector('div').insertAdjacentHTML('beforeend', 44444);// сраз
 document.querySelector('.one span').innerHTML = 6666;//span тег заменил полностью на 6666
 //---------------
 document.querySelector('img').alt = 'yellow cat';//заменил cat на yellow cat
+document.querySelector('img').src = "https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678134-sign-check-48.png";// заменил желтого кота на значек зеленный 
