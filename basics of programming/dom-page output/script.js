@@ -14,3 +14,4 @@ document.querySelector('.one span').innerHTML = 6666;//span тег замени�
 document.querySelector('img').alt = 'yellow cat';//заменил cat на yellow cat
 document.querySelector('img').src = "https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678134-sign-check-48.png";// заменил желтого кота на значек зеленный 
 document.querySelector('title').outerText = 'Dom-page output';// поменял в title Document на Dom-page output
+console.log(document.querySelector('link').href);
