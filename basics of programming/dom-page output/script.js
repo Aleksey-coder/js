@@ -17,3 +17,5 @@ document.querySelector('title').outerText = 'Dom-page output';// поменял 
 
 console.log(document.querySelector('link').href);
 document.querySelector('link').href = 'style2.css';//поменял style1.css на style2.css
+
+document.querySelector('button').innerHTML = '<a class ="print-doc" href="javascript:(print());"> Print</a>';//добавил  принтер 
