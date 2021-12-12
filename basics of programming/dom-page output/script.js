@@ -19,3 +19,8 @@ console.log(document.querySelector('link').href);
 document.querySelector('link').href = 'style2.css';//поменял style1.css на style2.css
 
 document.querySelector('button').innerHTML = '<a class ="print-doc" href="javascript:(print());"> Print</a>';//добавил  принтер 
+ let print = document.querySelector('.print-doc');
+   print.style.backgroundColor = 'pink'; 
+	print.style.fontSize = "30px";
+	print.style.color = "red";
+	print.style.textDecoration = 'none';
