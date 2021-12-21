@@ -24,3 +24,6 @@ document.querySelector('button').innerHTML = '<a class ="print-doc" href="javasc
 	print.style.fontSize = "30px";
 	print.style.color = "red";
 	print.style.textDecoration = 'none';
+
+//-------------
+console.log(document.querySelector('input').value);
