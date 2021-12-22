@@ -28,3 +28,4 @@ document.querySelector('button').innerHTML = '<a class ="print-doc" href="javasc
 //-------------
 console.log(document.querySelector('input').value);
 document.querySelector('input').value = 'text';//поменял Hello на text
+document.querySelector('input').type = 'date';//поменял в input на колендарь 
