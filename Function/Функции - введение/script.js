@@ -20,3 +20,12 @@ hello();
 testFunction();
 testFunction2();
 //t3(); !Error
+
+function unitTime() {
+	let time = Math.floor(new Date().getTime());
+	console.log(time);
+}
+
+unitTime();
+unitTime();
+
