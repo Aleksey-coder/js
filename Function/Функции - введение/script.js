@@ -29,3 +29,11 @@ function unitTime() {
 unitTime();
 unitTime();
 
+function randomInt() {
+	const min = 100;
+	const max = 200;
+	let rand = Math.floor(min + Math.random() * (max + 1 - min));
+	console.log(rand);
+}
+
+randomInt();
