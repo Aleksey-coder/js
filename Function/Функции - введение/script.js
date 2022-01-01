@@ -47,3 +47,13 @@ function rand() {
 randomInt();
 randomInt();
 
+//console.log(randomInt);
+let min = 300;
+let max = 360;
+
+function rand() {
+	let rand = Math.floor(min + Math.random() * (max + 1 - min));
+	console.log(rand);
+}
+
+rand();
