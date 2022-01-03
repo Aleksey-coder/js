@@ -67,3 +67,7 @@ function count () {
 }
 
 count();
+count();
+count();
+count();
+count()
