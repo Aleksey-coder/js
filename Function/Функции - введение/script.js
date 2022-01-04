@@ -71,3 +71,13 @@ count();
 count();
 count();
 count()
+
+document.querySelector('.out-1').addEventListener('mousemove', blockWidth);
+// document.querySelector('.out-1').onclick = count;
+
+let w = 100;
+
+function blockWidth() {
+	w++;
+	document.querySelector('.out-1').style.width = w + 'px';
+}
