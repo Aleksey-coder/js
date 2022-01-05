@@ -81,3 +81,18 @@ function blockWidth() {
 	w++;
 	document.querySelector('.out-1').style.width = w + 'px';
 }
+
+// Task 1. 
+
+const out1 = document.querySelector('.out-1');
+
+function  getRandomlnt() {
+	let min = 117;
+    let max = 132;
+	let  getRandomlnt = Math.floor(min + Math.random() * (max + 1 - min));
+	console.log( getRandomlnt);
+	out1.innerText = getRandomlnt;
+	out1.style.textAlign = 'center';
+}
+
+getRandomlnt();
