@@ -96,3 +96,28 @@ function  getRandomlnt() {
 }
 
 getRandomlnt();
+
+// Task 3.
+
+
+//------------------------------------------------Не забываем, что функции можно вызывать внутри другой функции. Напишите функцию t3, которая срабатывает при клике по кнопке .b-3, и запускает фукнции hello, и f2021. Если все сделано верно, то внутри .out-3 вы увидите текст hello 2021
+
+
+const out3 = document.querySelector('.out-3');
+
+function hello() {
+    out3.innerHTML = 'Hello ';
+}
+
+function f2022() {
+    out3.innerHTML += 2022;
+}
+
+
+function t3() {
+    // тут вызываете hello и f2021
+	hello();
+	f2022();
+}
+
+document.querySelector('.b-3').addEventListener('click', t3);
