@@ -147,3 +147,24 @@ function t3() {
 }
 
 document.querySelector('.b-3').addEventListener('click', t3);
+
+/ Task 4.
+
+const out4 = document.querySelector('.out-4');
+
+function t4() {
+    function hello() {
+        out4.innerHTML = 'Hello ';
+    }
+    function f2021() {
+        hello();
+        out4.innerHTML += 2021;
+    }
+    f2021();
+}
+
+function t_4() {	
+	t4()
+}
+
+ document.querySelector('.b-4').addEventListener('click', t_4);
