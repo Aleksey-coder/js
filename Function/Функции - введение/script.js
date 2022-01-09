@@ -122,12 +122,24 @@ function t3() {
 
 document.querySelector('.b-3').addEventListener('click', t3);
 
+//Task 2.
+
+const out2 = document.querySelector('.out-2');
+let min = 800;
+let max = 900;
+
+function getRandomInt2(){
+  getRandomlnt2 = Math.floor(min + Math.random() * (max + 1 - min));
+}
+
+// функцию пишите здесь
+
 
 // Task 3.
 
 
 //------------------------------------------------Не забываем, что функции можно вызывать внутри другой функции. Напишите функцию t3, которая срабатывает при клике по кнопке .b-3, и запускает фукнции hello, и f2021. Если все сделано верно, то внутри .out-3 вы увидите текст hello 2021
-//---------------------------------
+
 
 const out3 = document.querySelector('.out-3');
 
