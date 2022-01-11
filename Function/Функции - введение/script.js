@@ -200,3 +200,23 @@ function t_4() {
  }
 
  document.querySelector('.b-5').addEventListener('click', t5);
+
+
+// Task 5.
+
+ const out5 = document.querySelector('.out-5');
+
+ function even() {
+	out5.textContent = 'even';
+	console.log(event)
+ }
+
+ function odd() {
+	out5.textContent = 'odd';
+	console.log(odd)
+ }
+
+ function t5() {
+	
+ }
+
