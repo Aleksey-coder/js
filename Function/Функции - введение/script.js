@@ -160,7 +160,7 @@ function t3() {
 
 document.querySelector('.b-3').addEventListener('click', t3);
 
-/ Task 4.
+// Task 4.----------------------
 
 const out4 = document.querySelector('.out-4');
 
