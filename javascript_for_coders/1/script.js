@@ -6,5 +6,11 @@ btn.addEventListener('click', btnClick);
 
 function btnClick() {
 	console.log(content.classList);
-	content.classList.toggle("content-hidden")
+
+	if(content.classList.contains("content-hidden")){
+		btn.textContent = "Закрыть блок"
+	} else {
+		btn.textContent = "Открыть блок"
 }
+	
+content.classList.toggle("content-hidden");
