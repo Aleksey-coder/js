@@ -1,0 +1,28 @@
+div {
+	margin:5px auto;
+	padding: 5px;
+}
+
+.list-content {
+		margin: 5px auto;
+		padding: 5px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(8, 112, 32, 0.69);
+}
+/*
+.modal-window { 
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: transform(-50%, -50%);
+}
+
+.content-hidden {
+	display: none;
+}
+*/
+.accordeon-body {
+	display: none;
+}
