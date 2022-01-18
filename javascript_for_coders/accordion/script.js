@@ -1,9 +1,11 @@
 const headers = document.querySelectorAll("[data-name='accordeon-title']");
 	console.log("headers", headers);
 	headers.forEach(function(item){
-		item.addEventListener("click", toggleBlock)
+		item.addEventListener("click", headerClick);
 	});
 	
-	function toggleBlock() {
+	function headerClick() {
 		console.log("Fired");
+		console.log(this.nextElementSibling);
+		this.nextElementSibling.classList.toggle("accordeon-body");	
 	}
