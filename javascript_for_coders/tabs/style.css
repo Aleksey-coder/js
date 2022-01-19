@@ -1,0 +1,19 @@
+body{
+width: 50%;
+margin: 0 auto;
+}
+
+li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+
+.tab-content-hidden {
+	display: none;
+}
+
+/*.accorder-body {
+	display: none;
+}*/
+

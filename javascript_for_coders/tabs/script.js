@@ -1,0 +1,1 @@
+const tabHeaders = document.querySelectorAll("[data-tab]");
