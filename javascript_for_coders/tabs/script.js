@@ -9,3 +9,9 @@ function tabHandler(item) {
 	// Находим название ID связонного блока с контентом
 	item.addEventListener("click", tabsClick)
 }
+
+function tabsClick() {
+	console.log("Fired");
+	console.dir(this.dataset.tab);
+	// Находим название ID связонного блока с контентом
+	const tabId = this.dataset.tab;
