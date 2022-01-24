@@ -15,3 +15,6 @@ function tabsClick() {
 	console.dir(this.dataset.tab);
 	// Находим название ID связонного блока с контентом
 	const tabId = this.dataset.tab;
+//Скрываем все блоки с контентом
+//Находим по data атрибуту все блоки с контентом
+//и скрываем их
