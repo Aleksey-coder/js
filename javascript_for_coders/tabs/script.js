@@ -18,3 +18,7 @@ function tabsClick() {
 //Скрываем все блоки с контентом
 //Находим по data атрибуту все блоки с контентом
 //и скрываем их
+
+document.querySelectorAll("[data-tab-content]").forEach(function(item) {
+		item.classList.add("tab-content-hidden");
+});
