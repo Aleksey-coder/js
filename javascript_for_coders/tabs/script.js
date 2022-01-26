@@ -22,3 +22,6 @@ function tabsClick() {
 document.querySelectorAll("[data-tab-content]").forEach(function(item) {
 		item.classList.add("tab-content-hidden");
 });
+
+// По ID включаем нужный блок с контентом
+//document.getElementById(tabId).classList.toggle("tab-content-hidden");
