@@ -1,0 +1,68 @@
+/*#td1 {
+	width:40px;
+}
+
+#td2 {
+	text-align: left;
+	width:40px;
+}
+
+#td3 {
+	text-align: center;
+	width:40px;
+}
+
+#td4 {
+	text-align: right;
+	width:40px;
+}
+
+#td5 {
+	text-align: right; vertical-align: top; width: 40px;
+}
+
+img {
+	width: 250px; 
+	height: 200px;
+}
+*/
+#bas {
+	position: absolute; 
+	z-index: 90; left: 0px; 
+	top: 0px; 
+	width: 100%; 
+	height: 100%; 
+	visibility: hidden; 
+	background: #000000; 
+	opacity: 0.95;
+}
+#view {
+	position: absolute; 
+	z-index: 91; 
+	left: 0px; 
+	top: 0px; 
+	width: 100%; 
+	height: 100%; 
+	visibility: hidden;
+}
+#td1 {
+	width: 40px;
+}
+#td2 {
+	text-align: left;
+}
+#td3 {
+	text-align: center;
+}
+#td4 {
+	text-align: right;
+}
+#td5 {
+	text-align: right; 
+	vertical-align: top; 
+	width: 40px;
+}
+.smp {
+	width: 300px;
+}
+
