@@ -13,6 +13,8 @@ let mas=["0", "1", "2", "3", "4", "5", "6", "7", "8"];
 function look(event) {
 let sc=window.pageYOffset; 
 document.getElementById("bas").style.top=sc+"px";
-
 }
 
+function look(event) {
+if(event.target.tagName=="IMG"){
+var sc=window.pageYOffset;
