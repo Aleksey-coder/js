@@ -18,3 +18,9 @@ document.getElementById("bas").style.top=sc+"px";
 function look(event) {
 if(event.target.tagName=="IMG"){
 var sc=window.pageYOffset;
+
+document.getElementById("bas").style.top=sc+"px"; 
+document.getElementById("view").style.top=sc+"px"; 
+document.getElementById("photo").src=event.target.src; 
+document.getElementById("vp").style.visibility="visible"; 
+document.getElementById("nz").style.visibility="visible";
