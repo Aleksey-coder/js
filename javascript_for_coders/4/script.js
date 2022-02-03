@@ -24,3 +24,10 @@ document.getElementById("view").style.top=sc+"px";
 document.getElementById("photo").src=event.target.src; 
 document.getElementById("vp").style.visibility="visible"; 
 document.getElementById("nz").style.visibility="visible";
+
+  var posi=document.getElementById("photo").src;
+	for(var i=0; i<mas.length; i++) {
+	if(posi.indexOf("city/"+mas[i]+".jpg")>=0) {
+	if(i==0) {
+document.getElementById("nz").style.visibility="hidden";
+}
