@@ -31,3 +31,9 @@ document.getElementById("nz").style.visibility="visible";
 	if(i==0) {
 document.getElementById("nz").style.visibility="hidden";
 }
+
+	if(i==(mas.length-1)) {
+document.getElementById("vp").style.visibility="hidden";
+}
+}
+}		
