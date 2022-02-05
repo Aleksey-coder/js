@@ -27,13 +27,17 @@ document.getElementById("nz").style.visibility="visible";
 
   var posi=document.getElementById("photo").src;
 	for(var i=0; i<mas.length; i++) {
-	if(posi.indexOf("city/"+mas[i]+".jpg")>=0) {
-	if(i==0) {
-document.getElementById("nz").style.visibility="hidden";
-}
+		if(posi.indexOf("city/"+mas[i]+".jpg")>=0) {
+			if(i==0) {
+				document.getElementById("nz").style.visibility="hidden";
+	}
 
-	if(i==(mas.length-1)) {
-document.getElementById("vp").style.visibility="hidden";
-}
-}
+		if(i==(mas.length-1)) {
+				document.getElementById("vp").style.visibility="hidden";
+		}
+	}
 }		
+	
+document.getElementById("bas").style.visibility="visible";
+document.getElementById("view").style.visibility="visible";
+}
