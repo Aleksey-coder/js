@@ -41,3 +41,7 @@ document.getElementById("nz").style.visibility="visible";
 document.getElementById("bas").style.visibility="visible";
 document.getElementById("view").style.visibility="visible";
 }
+
+return false;
+}
+	
