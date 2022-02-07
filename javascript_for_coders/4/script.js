@@ -45,3 +45,11 @@ document.getElementById("view").style.visibility="visible";
 return false;
 }
 	
+function nz() {
+	document.getElementById("vp").style.visibility="visible"; var posi=document.getElementById("photo").src;
+	for(var i=0; i<mas.length; i++) {
+	if(posi.indexOf("city/"+mas[i]+".jpg")>=0) {
+		i--;
+		document.getElementById("photo").src="city/"+mas[i]+".jpg"; if(i==0) {
+		document.getElementById("nz").style.visibility="hidden";
+}
