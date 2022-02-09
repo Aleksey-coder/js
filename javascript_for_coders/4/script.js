@@ -60,3 +60,7 @@ function nz() {
   	 }
 	return false;
 		}		
+
+function vp() {
+	document.getElementById("nz").style.visibility="visible";
+ 		var posi=document.getElementById("photo").src;
