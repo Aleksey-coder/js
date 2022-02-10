@@ -33,6 +33,7 @@ document.getElementById("nz").style.visibility="visible";
 	}
 
 		if(i==(mas.length-1)) {
+			
 				document.getElementById("vp").style.visibility="hidden";
 		}
 	}
@@ -64,3 +65,12 @@ function nz() {
 function vp() {
 	document.getElementById("nz").style.visibility="visible";
  		var posi=document.getElementById("photo").src;
+for(var i=0;
+ i<mas.length; i++) {
+if(posi.indexOf("city/"+mas[i]+".jpg")>=0) { 
+	i++;
+document.getElementById("photo").src="city/"+mas[i]+".jpg";
+	if(i==(mas.length-1)) {
+document.getElementById("vp").style.visibility="hidden";
+}
+break;
