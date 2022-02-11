@@ -74,3 +74,7 @@ document.getElementById("photo").src="city/"+mas[i]+".jpg";
 document.getElementById("vp").style.visibility="hidden";
 }
 break;
+}
+}
+return false;
+}
