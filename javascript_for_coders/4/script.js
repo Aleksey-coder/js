@@ -78,3 +78,12 @@ break;
 }
 return false;
 }
+
+function del() {
+document.getElementById("view").style.visibility="hidden"; 
+document.getElementById("bas").style.visibility="hidden"; 
+document.getElementById("vp").style.visibility="hidden"; 
+document.getElementById("nz").style.visibility="hidden"; 
+document.getElementById("photo").src="pict/point.jpg"; 
+return false;
+}
