@@ -26,6 +26,11 @@ img {
 	height: 200px;
 }
 */
+body {
+	width: 30%;
+	margin: 0 auto;
+}
+
 #bas {
 	position: absolute; 
 	z-index: 90; left: 0px; 
