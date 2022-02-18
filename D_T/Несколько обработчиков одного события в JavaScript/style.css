@@ -5,9 +5,9 @@ body {
 #button {
 	margin:100px;
 	padding: 17px;
-	color: blue;
+	color: #FFE4E1;
 	size: 12;
-	background-color: red;
+	background-color: #4B0082;
 	border: 1px solid blue;
 }
 
