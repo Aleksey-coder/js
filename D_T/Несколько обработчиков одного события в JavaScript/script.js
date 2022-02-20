@@ -7,7 +7,7 @@ function func2() {
 }
 
 function func3() {
-	alert('yyy');
+	alert('3');
 }
 
 
