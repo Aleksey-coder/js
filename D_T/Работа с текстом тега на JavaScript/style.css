@@ -1,0 +1,18 @@
+body {
+ background-color:  red;
+
+}
+
+#button {
+ margin: 120px;
+ padding: 20px;
+ color: green;
+ cursor: pointer;
+
+
+}
+
+#elem {
+ display: block;
+ display: none;	
+} 
