@@ -3,7 +3,7 @@ body {
 
 }
 
-#button {
+#button, #btn, #btnK, #btnG, #btnT, #btnF, #btnQ, #btnW, #btnE, #btnR, #btnY  {
  margin: 120px;
  padding: 20px;
  color: green;
