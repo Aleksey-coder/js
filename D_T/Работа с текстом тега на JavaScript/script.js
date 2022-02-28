@@ -37,3 +37,17 @@ button.addEventListener('click', function() {
 	elem.innerHTML = '!!!';
 });
 
+//Задача 3
+
+let btnT = document.querySelector('#btnT');
+let btnF = document.querySelector('#btnF');
+let str3 = document.querySelector('#str3');
+let str4 = document.querySelector('#str4');
+
+btnT.addEventListener('click', function() {
+	alert(str3.innerHTML = 'Hello'); 
+});
+
+btnF.addEventListener('click', function() {
+	alert(str4.innerHTML = 'Bay');
+});
