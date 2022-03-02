@@ -51,3 +51,24 @@ btnT.addEventListener('click', function() {
 btnF.addEventListener('click', function() {
 	alert(str4.innerHTML = 'Bay');
 });
+
+//Задача 4
+
+let btnQ = document.querySelector('#btnQ');
+let btnW = document.querySelector('#btnW');
+let btnE = document.querySelector('#btnE');
+let str5 = document.querySelector('#str5');
+let str6 = document.querySelector('#str6');
+let str7 = document.querySelector('#str7');
+
+btnQ.addEventListener('click', function() {
+	str5.innerHTML = '1'; 
+});
+
+btnW.addEventListener('click', function() {
+	str6.innerHTML = '2';
+});
+
+btnE.addEventListener('click', function() {
+	str7.innerHTML = '3';
+});
