@@ -72,3 +72,13 @@ btnW.addEventListener('click', function() {
 btnE.addEventListener('click', function() {
 	str7.innerHTML = '3';
 });
+
+
+//Задача 5
+
+let btnR = document.querySelector('#btnR');
+
+btnR.addEventListener('click', function() {
+	 str8.innerHTML = Math.pow(5, 3);
+	 
+});
