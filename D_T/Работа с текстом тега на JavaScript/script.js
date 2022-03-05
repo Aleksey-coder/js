@@ -83,11 +83,11 @@ btnR.addEventListener('click', function() {
 	 
 });
 
-//Задача 5
+//Задача 6
 
 let btnY = document.querySelector('#btnY');
+let str9 = document.querySelector('#str9');
 
 btnY.addEventListener('click', function() {
-	 str9.innerHTML = Math.pow(5 + 3);
-	 
-});
+	 str9.innerHTML = 5 + 1;
+})
