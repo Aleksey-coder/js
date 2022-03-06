@@ -90,4 +90,17 @@ let str9 = document.querySelector('#str9');
 
 btnY.addEventListener('click', function() {
 	 str9.innerHTML = 5 + 1;
-})
+});
+
+//nnnn
+
+let inp = document.querySelector('#inp');
+let bt = document.querySelector('#bt');
+let cvc = document.querySelector('#cvc');
+
+bt.addEventListener('click', function() {
+	 let c = inp.value;
+	 r = c * 10;
+	 cvc.innerHTML = r;
+	 console.log(r);
+});
