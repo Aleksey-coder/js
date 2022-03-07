@@ -104,3 +104,16 @@ bt.addEventListener('click', function() {
 	 cvc.innerHTML = r;
 	 console.log(r);
 });
+
+//Задача 7 не доделано
+
+let btnU = document.querySelector('#btnU');
+let str10 = document.querySelector('#str10');
+
+btnU.addEventListener('click', function() {
+	let z = str10.value;
+	console.log(z);
+	w = z + '!';
+	str10.innerHTML = w;
+	console.log(w)
+});
