@@ -105,15 +105,12 @@ bt.addEventListener('click', function() {
 	 console.log(r);
 });
 
-//Задача 7 не доделано
+//Задача 7
 
-let btnU = document.querySelector('#btnU');
-let str10 = document.querySelector('#str10');
+let btnU = document.querySelector('.btnU');
+let x = document.querySelector('.xxx');
+ 
 
 btnU.addEventListener('click', function() {
-	let z = str10.value;
-	console.log(z);
-	w = z + '!';
-	str10.innerHTML = w;
-	console.log(w)
+	x.innerText  +=  '!';
 });
