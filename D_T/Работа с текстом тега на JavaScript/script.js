@@ -114,3 +114,14 @@ let x = document.querySelector('.xxx');
 btnU.addEventListener('click', function() {
 	x.innerText  +=  '!';
 });
+
+//Задача 8
+
+let btnI = document.querySelector('.btnI');
+let xI = document.querySelector('.xxxI');
+ 
+
+btnI.addEventListener('click', function() {
+	
+	xI.innerText  =  '!' + xI.innerText;
+});
