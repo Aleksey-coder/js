@@ -125,3 +125,14 @@ btnI.addEventListener('click', function() {
 	
 	xI.innerText  =  '!' + xI.innerText;
 });
+
+//Задача 9
+
+let btnO = document.querySelector('.btnO');
+let xO = document.querySelector('.xxxO');
+ 
+
+btnO.addEventListener('click', function() {
+	
+	xO.innerText  =  '<i>hello</i>';
+});
