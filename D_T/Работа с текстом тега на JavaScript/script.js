@@ -136,3 +136,12 @@ btnO.addEventListener('click', function() {
 	
 	xO.innerText  =  '<i>hello</i>';
 });
+
+//Задача 10 
+
+let btnP = document.querySelector('.btnP');
+let xP = document.querySelector('.xP');
+
+btnP.addEventListener('click', function() {
+	xP.innerHTML  =  '<b>hello</b>';
+});
