@@ -29,3 +29,7 @@ btn1.addEventListener('click', function() {
 button.addEventListener('click', function() {
 	elem.type = 'submit'; // присвоим новое значение атрибуту type
 });
+
+//Задача 3
+
+let  btn3 = document.querySelector('#btn3');
