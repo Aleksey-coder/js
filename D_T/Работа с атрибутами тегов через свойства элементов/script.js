@@ -27,7 +27,7 @@ btn1.addEventListener('click', function() {
 //Задача 2
 
 button.addEventListener('click', function() {
-	elem.type = 'submit'; // присвоим новое значение атрибуту type
+	elem.type = 'submit'; // присвоим новое значение атрибуту type и так 
 });
 
 //Задача 3
