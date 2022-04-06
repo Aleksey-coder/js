@@ -32,4 +32,5 @@ button.addEventListener('click', function() {
 
 //Задача 3
 
+let a = document.querySelector('a');
 let  btn3 = document.querySelector('#btn3');
