@@ -32,5 +32,6 @@ button.addEventListener('click', function() {
 
 //Задача 3
 
-let a = document.querySelector('a');
-let  btn3 = document.querySelector('#btn3');
+let elem = document.querySelector('#elem');
+let y = document.querySelector('#y');
+let btn3 = document.querySelector('.btn-3');
