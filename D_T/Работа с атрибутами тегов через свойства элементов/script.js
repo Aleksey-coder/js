@@ -35,3 +35,7 @@ button.addEventListener('click', function() {
 let elem = document.querySelector('#elem');
 let y = document.querySelector('#y');
 let btn3 = document.querySelector('.btn-3');
+
+btn3.addEventListener('click', function() {
+	elem.text = y.text 
+});
