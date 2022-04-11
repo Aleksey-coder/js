@@ -37,5 +37,6 @@ let y = document.querySelector('#y');
 let btn3 = document.querySelector('.btn-3');
 
 btn3.addEventListener('click', function() {
-	elem.text = y.text 
+	//elem.text = y.text 
+	y.innerML = elem3.text
 });
