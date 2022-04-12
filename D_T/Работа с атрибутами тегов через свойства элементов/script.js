@@ -40,3 +40,15 @@ btn3.addEventListener('click', function() {
 	//elem.text = y.text 
 	y.innerML = elem3.text
 });
+
+//Задача 4 не доделал круглые скобки 
+
+let elem4 = document.querySelector('#elem-4');
+let btn4 = document.querySelector('#btn-4');
+
+
+btn4.addEventListener('click', function() {
+	 elem4.text += elem4.title
+	// elem4.innerHTML  +=  (elem4.title);
+	 
+})
