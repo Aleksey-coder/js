@@ -52,3 +52,16 @@ btn4.addEventListener('click', function() {
 	// elem4.innerHTML  +=  (elem4.title);
 	 
 })
+
+//Задача 5 тоже надо было без innerHTML
+
+let elem5 = document.querySelector('#elem-5');
+let btn5 = document.querySelector('#btn-5');
+let cat = document.querySelector('#c-5')
+
+btn5.addEventListener('click', function() {
+	 //cat.type += elem5.src
+	 cat.innerHTML += elem5.src;
+	 
+})
+
