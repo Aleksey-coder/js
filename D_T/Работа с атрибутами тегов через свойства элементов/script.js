@@ -65,3 +65,12 @@ btn5.addEventListener('click', function() {
 	 
 })
 
+//Задача 6 
+
+let elem6 = document.querySelector('#elem-6');
+let btn6 = document.querySelector('#btn-6');
+
+btn6.addEventListener('click', function() {
+	 elem6.style.width = '300px';
+	 
+})
