@@ -74,3 +74,15 @@ btn6.addEventListener('click', function() {
 	 elem6.style.width = '300px';
 	 
 })
+
+//Задача 7 доделать
+
+let elem7 = document.querySelector('#elem-7');
+let btn7 = document.querySelector('#btn-7');
+
+btn7.addEventListener('click', function() {
+	 //elem7.style.width += 'src.style.width * 2px';
+	 //elem7.innerHTML += src.style.width * 2;
+	 elem7.style.width += '600px'
+}) 
+
