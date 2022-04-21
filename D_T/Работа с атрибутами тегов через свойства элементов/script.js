@@ -86,3 +86,19 @@ btn7.addEventListener('click', function() {
 	 elem7.style.width += '600px'
 }) 
 
+//Задача 8 может правельно а  может нет
+
+let elem81 = document.querySelector('#elem-8-1');
+let elem82 = document.querySelector('#elem-8-2');
+let btn81 = document.querySelector('#btn-8-1');
+let btn82 = document.querySelector('#btn-8-2');
+
+btn81.addEventListener('click', function() {
+	elem81 += 'img/myCats.jpg'
+	console.log(elem81)
+});
+
+btn82.addEventListener('click', function() {
+	  elem82 += 'img/myCat.jpg'
+	  console.log(elem82)
+});  
