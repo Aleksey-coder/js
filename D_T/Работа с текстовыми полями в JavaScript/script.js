@@ -16,3 +16,13 @@ btn1.addEventListener('click', function() {
 	elem1.value = 'new text 1 проредоктировал '; 
 })
 
+//Задача 2 Дан инпут и кнопка. По нажатию на кнопку запишите в инпут какой-нибудь текст.
+
+let elem2 = document.querySelector('#elem-2');
+let btn2 = document.querySelector('#btn-2');
+
+
+btn2.addEventListener('click', function() {
+	elem2.value = 'new text 2'; 
+	
+})
