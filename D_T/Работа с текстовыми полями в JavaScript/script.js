@@ -26,3 +26,15 @@ btn2.addEventListener('click', function() {
 	elem2.value = 'new text 2'; 
 	
 })
+
+//Задача 3 Дан инпут, абзац и кнопка. По нажатию на кнопку запишите в абзац текст из инпута.
+
+let elem3 = document.querySelector('#elem-3');
+let btn3 = document.querySelector('#btn-3');
+let p = document.querySelector('#pp');
+
+
+btn3.addEventListener('click', function() {
+	 p.innerHTML = elem3.value; 
+})
+
