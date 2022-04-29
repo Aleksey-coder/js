@@ -38,3 +38,15 @@ btn3.addEventListener('click', function() {
 	 p.innerHTML = elem3.value; 
 })
 
+//Задача 4 Даны два входа и кнопка. В первый ввод пользователя вводится число. Запишитесь на второй вход квадратного числа.
+//доделать
+let elem41 = document.querySelector('#elem-4-1');
+let elem42 = document.querySelector('#elem-4-2');
+let btn4 = document.querySelector('#btn-4');
+
+btn4.addEventListener('click', function() {
+	 //elem42.value += elem41.Math.sqrt(elem42).value; 
+	 let result = Math.sqrt(elem42);
+    return (result % 1 === 0);
+	result.value += elem41.value
+})
