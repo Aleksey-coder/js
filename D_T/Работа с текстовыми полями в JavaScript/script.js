@@ -45,10 +45,7 @@ let elem42 = document.querySelector('#elem-4-2');
 let btn4 = document.querySelector('#btn-4');
 
 btn4.addEventListener('click', function() {
-	 //elem42.value += elem41.Math.sqrt(elem42).value; 
-	 let result = Math.sqrt(elem42);
-    return (result % 1 === 0);
-	result.value += elem41.value
+	 elem42.value += Math.pow(elem41.value, 2); 
 })
 
 //Задача 5 Даны два инпута и кнопка. По нажатию на кнопку запишите в первый инпут значение второго инпута, а во второй инпут - значение первого. Ваш код должен работать универсально, для любых значений инпутов.
