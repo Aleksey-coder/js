@@ -50,3 +50,14 @@ btn4.addEventListener('click', function() {
     return (result % 1 === 0);
 	result.value += elem41.value
 })
+
+//Задача 5 Даны два инпута и кнопка. По нажатию на кнопку запишите в первый инпут значение второго инпута, а во второй инпут - значение первого. Ваш код должен работать универсально, для любых значений инпутов.
+//подумать правельно ли сделал
+let elem51 = document.querySelector('#elem-5-1');
+let elem52 = document.querySelector('#elem-5-2');
+let btn5 = document.querySelector('#btn-5');
+
+btn5.addEventListener('click', function() {
+	 elem52.value += elem51.value; 
+	 elem51.value += elem52.value;
+})
