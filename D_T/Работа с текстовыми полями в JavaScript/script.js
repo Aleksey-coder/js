@@ -58,3 +58,32 @@ btn5.addEventListener('click', function() {
 	 elem52.value += elem51.value; 
 	 elem51.value += elem52.value;
 })
+
+/Задача 6 НЕ РЕШИЛ 
+
+//Даны 5 инпутов, абзац и кнопка. В инпут вводятся числа. По нажатию на кнопку запишите среднее арифметическое введенных чисел в абзац.
+
+//<p>Дан инпут. В него вводятся числа через запятую. 
+//По потери фокуса найдите среднее арифметическое этих чисел
+// (сумма делить на количество).</p>
+//<div>
+//	<input id="num3" type="text" placeholder='Введите число' onblur='f03()'>
+//	<p id="result3">Ждём результат вычислений...</p>
+//</div>
+
+//function f01(){
+	let	elem6 = document.querySelectorAll(".elemA");
+	//let	elem62 = document.querySelectorAll("#elem-6-2");
+	//let	elem63 = document.querySelectorAll("#elem-6-3");
+	//let	elem64 = document.querySelectorAll("#elem-6-4");
+	//let	elem65 = document.querySelectorAll("#elem-6-5");
+	let	b6 = document.querySelectorAll("#b-6");
+	let	btn6A = document.querySelectorAll(".btn-6A");
+	
+	//var sum = 0;
+	//for(var i=0; i<inp.length-1; i++){
+	//	sum = sum + Number(inp[i].value);	
+	//}
+	//inp[3].value=sum;
+	
+//}
