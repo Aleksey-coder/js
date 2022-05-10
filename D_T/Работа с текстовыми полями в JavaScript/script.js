@@ -87,3 +87,15 @@ btn5.addEventListener('click', function() {
 	//inp[3].value=sum;
 	
 //}
+
+btn6A.addEventListener('click', function()  {
+	 //let sum = elem61.value + elem62.value + elem63.value + elem64.value + elem65;
+	 let sum = 0;
+	 for(let i = 0; i<elem6.length; i++){
+       sum += +elem61[i].value;
+	 console.log(sum);
+	 //sum = sum / 2;
+	// b6 += sum;
+	 }
+})
+
