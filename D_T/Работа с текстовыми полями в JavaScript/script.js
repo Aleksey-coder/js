@@ -99,3 +99,14 @@ btn6A.addEventListener('click', function()  {
 	 }
 })
 
+//------------- 
+
+//private int StringLength(string str) {
+//int lendth = 0;
+//    for( int i = 0; i < str.Length; i++)
+ //   {
+ //       length++;
+ //   }
+//    return length;
+//}
+
