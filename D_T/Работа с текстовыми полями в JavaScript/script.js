@@ -110,3 +110,17 @@ btn6A.addEventListener('click', function()  {
 //    return length;
 //}
 
+// task 6b
+
+task4();
+
+function f04(){
+	var	inp = document.getElementById("num4");
+	var p = document.getElementById("res4");
+	var arr = inp.value.split(',');
+	var sum = 0;
+	for(var i=0; i<arr.length; i++){
+		sum = sum + Number(arr[i]);
+	}
+	p.innerHTML = 'Srednee arifm number = '+sum/i;
+}
