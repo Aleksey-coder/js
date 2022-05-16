@@ -115,7 +115,7 @@ btn6A.addEventListener('click', function()  {
 task4();
 
 function f04(){
-	var	inp = document.getElementById("num4");
+	var inp = document.getElementById("num4");
 	var p = document.getElementById("res4");
 	var arr = inp.value.split(',');
 	var sum = 0;
