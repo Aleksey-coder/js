@@ -118,7 +118,7 @@ function f04(){
 	let inp = document.getElementById("num4");
 	let p = document.getElementById("res4");
 	let arr = inp.value.split(',');
-	var sum = 0;
+	let sum = 0;
 	for(var i=0; i<arr.length; i++){
 		sum = sum + Number(arr[i]);
 	}
