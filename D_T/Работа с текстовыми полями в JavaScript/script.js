@@ -119,7 +119,7 @@ function f04(){
 	let p = document.getElementById("res4");
 	let arr = inp.value.split(',');
 	let sum = 0;
-	for(var i=0; i<arr.length; i++){
+	for(let i=0; i<arr.length; i++){
 		sum = sum + Number(arr[i]);
 	}
 	p.innerHTML = 'Srednee arifm number = '+sum/i;
