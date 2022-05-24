@@ -122,5 +122,5 @@ function f04(){
 	for(let i=0; i<arr.length; i++){
 		sum = sum + Number(arr[i]);
 	}
-	p.innerHTML = 'Srednee arifm number = '+sum/i;
+	p.innerHTML = 'average number = '+sum/i;
 }
