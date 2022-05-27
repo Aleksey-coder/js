@@ -1,0 +1,10 @@
+div {position: relative; z-index: 1; width: 1000px; margin: 0px auto;}
+#p0 {position: absolute; z-index: 15; left: 200px; top: 20px;}
+#p1 {position: absolute; z-index: 14; left: 200px; top: 20px;}
+#p2 {position: absolute; z-index: 13; left: 200px; top: 20px;}
+#p3 {position: absolute; z-index: 12; left: 200px; top: 20px;}
+#p4 {position: absolute; z-index: 11; left: 200px; top: 20px;}
+#p5 {position: absolute; z-index: 10; left: 200px; top: 20px;}
+#p6 {position: absolute; z-index: 9; left: 200px; top: 20px;}
+#p7 {position: absolute; z-index: 8; left: 200px; top: 20px;}
+#p8 {position: absolute; z-index: 7; left: 200px; top: 20px;}
