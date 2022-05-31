@@ -3,30 +3,22 @@ window.onload=cycle;
 var t=2;
 var d=0;
 
-function cycle()
-{
+function cycle() {
 var ph="p"+d;
-if(d<8)
-   {
-   if(t<=0)
-      {
+if(d<8) {
+   if(t<=0) {
       d++;
       t=2;
       cycle();
-      }
-   else
-      {
+      } else {
       document.getElementById(ph).style.opacity=t;
       t=t-0.01;
       window.setTimeout(cycle, 20);
       }
-   }
-else
-   {
+   } else {
    document.getElementById("p0").style.zIndex=6;
    document.getElementById("p0").style.opacity=2;
-   if(t<=0)
-      {
+   if(t<=0) {
       document.getElementById("p0").style.zIndex=15;
       document.getElementById("p0").style.opacity=2;
       document.getElementById("p1").style.opacity=2;
@@ -41,9 +33,7 @@ else
       ph="p0";
       t=2;
       cycle();
-      }
-   else
-      {
+      } else {
       document.getElementById(ph).style.opacity=t;
       t=t-0.01;
       window.setTimeout(cycle, 20);
