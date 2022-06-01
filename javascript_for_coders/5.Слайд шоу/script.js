@@ -1,7 +1,7 @@
 window.onload=cycle;
 
 let t=2;
-var d=0;
+let d=0;
 
 function cycle() {
 var ph="p"+d;
