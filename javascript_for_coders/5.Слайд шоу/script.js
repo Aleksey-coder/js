@@ -1,6 +1,6 @@
 window.onload=cycle;
 
-var t=2;
+let t=2;
 var d=0;
 
 function cycle() {
