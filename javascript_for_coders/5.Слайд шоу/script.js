@@ -4,7 +4,7 @@ let t=2;
 let d=0;
 
 function cycle() {
-var ph="p"+d;
+let ph="p"+d;
 if(d<8) {
    if(t<=0) {
       d++;
