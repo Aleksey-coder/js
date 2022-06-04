@@ -11,7 +11,7 @@ div {
 		bottom: 0;
 		background-color: rgba(8, 112, 32, 0.69);
 }
-/*
+
 .modal-window { 
 	position: absolute;
 	left: 50%;
@@ -22,7 +22,7 @@ div {
 .content-hidden {
 	display: none;
 }
-*/
+
 .accordeon-body {
 	display: none;
 }
