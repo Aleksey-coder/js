@@ -1,4 +1,4 @@
-let strSum = prompt("Введите сумму вклада", 1000);
+let strSum = prompt("Введите сумму вклада ", 1000);
 let strPercent = prompt("Введите процентную ставку", 10);
 let sum = parseInt(strSum);
 var procent = parseInt(strPercent);
