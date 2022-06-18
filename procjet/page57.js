@@ -16,7 +16,7 @@ console.log(square.calcArea());*/
 
 
 class Rectangle {
-	constructor(height, width = 20) {
+	constructor(height, width = 30) {
 		this.height = height;
 		this.width = width;
 	}
