@@ -1,5 +1,5 @@
 let user = {
-	name: "Jonh"
+	name: "Jonh "
 };
 
 function sayName(surname) {
