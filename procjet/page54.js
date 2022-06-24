@@ -8,7 +8,7 @@ function sayName(surname) {
 }
 
 console.log(sayName.call(user, 'Smith'));
-console.log(sayName.apply(user, ['Snow']));
+console.log(sayName.apply(user, ['Snow ']));
 
 function count(number) {
 	return this * number;
